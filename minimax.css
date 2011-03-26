@@ -1,0 +1,32 @@
+.test {
+	background-color: red;
+}
+
+#board {
+	text-align: center;
+	width:300px;
+}
+
+.hover {
+	background-color: #eee;
+}
+
+.hover-target {
+	background-color: lightgreen;
+}
+
+#board table td {
+	height: 40px;
+	width: 40px;
+	border-color: lightgray;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+}
+
+.player1 {
+	background-color: green;
+}
+
+.player2 {
+	background-color: red;
+}
