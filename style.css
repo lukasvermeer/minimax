@@ -1,0 +1,100 @@
+body {
+	font-family: verdana;
+	text-align: center;
+}
+
+div {
+	padding: 10px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#credits {
+	font-size: smaller;
+	color: gray;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*
+	Pi Project Style
+*/
+
+#controls a {
+	background-color: green;
+	padding: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#controls a:hover {
+	background-color: lightgreen;
+}
+
+#counts {
+	font-size: xx-large;
+	padding: 10px;
+	color: green;
+}
+
+#counts span {
+	color: black;
+}
+
+#pi {
+	font-size: xx-large;
+	color: gray;
+	line-height: 50%;
+}
+
+#pinum {
+	color: black;
+}
+
+#estimate {
+	font-size: xx-large;
+	line-height: 50%;
+	color: gray;
+}
+
+#estimatenum {
+	color: black;
+}
+
+#accuracy {
+	color: lightgray;
+}
+
+/*
+	Project Overview Style
+*/
+
+#project {
+	padding: 10px;
+	margin: 10px;
+	background-color: lightgray;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#project a {
+	color: white;
+	font-weight: bold;
+}
+
+#project:hover {
+	background-color: lightgreen;
+}
